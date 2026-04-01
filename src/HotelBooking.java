@@ -1,3 +1,4 @@
+package src;
 public class HotelBooking {
 
     public static boolean isValidDays(int days) {

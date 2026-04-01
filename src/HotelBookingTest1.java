@@ -1,3 +1,4 @@
+package src;
 public class HotelBookingTest1 {
 
     public static void test(String expected, String actual) {
