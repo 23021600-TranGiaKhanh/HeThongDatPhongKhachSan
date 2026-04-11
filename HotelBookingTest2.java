@@ -1,4 +1,3 @@
-package src;
 public class HotelBookingTest2 {
     public static void test(String expected, String actual) {
         if (expected.equals(actual)) {

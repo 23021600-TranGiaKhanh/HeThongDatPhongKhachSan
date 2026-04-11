@@ -1,5 +1,4 @@
-package src;
-public class HoltelBookingTest3 {
+public class HotelBookingTest3 {
         public static void test(String expected, String actual) {
         if (expected.equals(actual)) {
             System.out.println("PASS");
