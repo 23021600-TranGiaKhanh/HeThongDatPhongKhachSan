@@ -1,3 +1,4 @@
+package src;
 public class HotelBooking {
 
     public static boolean isValidDays(int days) {
@@ -38,8 +39,11 @@ public class HotelBooking {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculate("standard", 5, true, "low"));
-        System.out.println(calculate("deluxe", 10, false, "high"));
-        System.out.println(calculate("abc", 5, true, "low")); // invalid
+        System.out.println(calculate("standard", 0, true, "low"));
+        System.out.println(calculate("standard", 3, true, "low"));
+        System.out.println(calculate("standard", 3, false, "low"));
+        System.out.println(calculate("standard", 3, false, "high"));
+        System.out.println(calculate("deluxe", 5, true, "high"));
+        System.out.println(calculate("deluxe", 5, false, "high"));
     }
 }
